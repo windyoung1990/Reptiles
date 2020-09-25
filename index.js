@@ -1,8 +1,7 @@
-const express = require('express');
-const app = express();
-app.use(require('prerender-node'));
-app.use('*', (req, res, next) => {
-    console.log('express');
-    next()
-})
-app.listen(3001);
+const prerender = require('prerender');
+const server = prerender({
+    port: 3001
+});
+server.start();
+// prerender测试方法
+// curl http://localhost:3000/render\?url\=http://62.234.27.149/

@@ -19,6 +19,6 @@
   "homepage": "https://github.com/windyoung1990/Reptiles#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "prerender-node": "^3.2.5"
+    "prerender": "^5.8.0"
   }
 }
