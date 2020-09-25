@@ -1,0 +1,24 @@
+{
+  "name": "Reptiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/windyoung1990/Reptiles.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/windyoung1990/Reptiles/issues"
+  },
+  "homepage": "https://github.com/windyoung1990/Reptiles#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "prerender-node": "^3.2.5"
+  }
+}
