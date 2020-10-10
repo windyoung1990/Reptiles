@@ -18,7 +18,9 @@
   },
   "homepage": "https://github.com/windyoung1990/Reptiles#readme",
   "dependencies": {
+    "connect-history-api-fallback": "^1.6.0",
     "express": "^4.17.1",
-    "prerender": "^5.8.0"
+    "prerender": "^5.8.0",
+    "prerender-node": "^3.2.5"
   }
 }
