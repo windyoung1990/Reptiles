@@ -1,6 +1,7 @@
 const prerender = require('prerender');
 const server = prerender({
-    port: 3001
+    port: 3001,
+    chromeFlags: ['--no-sandbox', '--headless', '--disable-gpu', '--remote-debugging-port=9222', '--hide-scrollbars']
 });
 server.start();
 // 参考文档：https://juejin.im/post/6844903789661519886
