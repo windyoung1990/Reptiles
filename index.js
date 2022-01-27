@@ -3,7 +3,12 @@ const server = prerender({
     port: 3001,
     chromeFlags: ['--no-sandbox', '--headless', '--disable-gpu', '--remote-debugging-port=9222', '--hide-scrollbars']
 });
+// server.use((req, res, next) => {
+//     console.log('use88888888888888');
+//     next()
+// })
 server.start();
+
 // 参考文档：https://juejin.im/post/6844903789661519886
 // prerender测试方法
 // curl http://localhost:3001/render\?url\=http://62.234.27.149/
